@@ -1,0 +1,16 @@
+create table vehicleinventory
+(
+   vid integer not null,
+   vname varchar(255) not null,
+   vinfo varchar(255) not null,
+   primary key(id)
+);
+
+insert into vehicleinventory
+values(10001,'Truck', 'E1234567 highway');
+
+insert into vehicleinventory
+values(10002,'car', 'A1234568 car');
+
+insert into vehicleinventory
+values(10002,'Bus', 'A1234568 RouteMarta');
